@@ -1,0 +1,20 @@
+2026-03-06 13:27:19,171 - TradingBot - ERROR - Missing API credentials. Please set them in the .env file.
+2026-03-06 13:32:21,840 - TradingBot - INFO - Preparing to place BUY MARKET order for 0.01 BTCUSDT...
+2026-03-06 13:32:21,841 - TradingBot - DEBUG - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1772784141840, 'signature': '033a2c8eb3319ae3ce9a5e00649ca9f1904b23600b6672a895bbe9db85f803fd'}
+2026-03-06 13:32:22,948 - TradingBot - ERROR - Network error occurred: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1772784141840&signature=033a2c8eb3319ae3ce9a5e00649ca9f1904b23600b6672a895bbe9db85f803fd
+2026-03-06 13:32:22,949 - TradingBot - ERROR - Response content: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-03-06 13:32:22,950 - TradingBot - ERROR - Binance API Error: Network/HTTP Error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1772784141840&signature=033a2c8eb3319ae3ce9a5e00649ca9f1904b23600b6672a895bbe9db85f803fd
+2026-03-06 13:35:20,865 - TradingBot - INFO - Preparing to place BUY MARKET order for 0.01 BTCUSDT...
+2026-03-06 13:35:20,866 - TradingBot - DEBUG - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1772784320866, 'signature': '5933337a2ec30ce4f16411fd280dcb35c66f490c9c94f5c102f12bfb996aea5a'}
+2026-03-06 13:35:22,153 - TradingBot - ERROR - Network error occurred: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1772784320866&signature=5933337a2ec30ce4f16411fd280dcb35c66f490c9c94f5c102f12bfb996aea5a
+2026-03-06 13:35:22,153 - TradingBot - ERROR - Response content: {"code":-1021,"msg":"Timestamp for this request is outside of the recvWindow."}
+2026-03-06 13:35:22,153 - TradingBot - ERROR - Binance API Error: Network/HTTP Error: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1772784320866&signature=5933337a2ec30ce4f16411fd280dcb35c66f490c9c94f5c102f12bfb996aea5a
+2026-03-06 13:37:31,459 - TradingBot - INFO - Preparing to place BUY MARKET order for 0.01 BTCUSDT...
+2026-03-06 13:37:31,460 - TradingBot - DEBUG - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1772784451460, 'signature': '3acef764da2a57cd19f4e0e59cbb07261463ffbc07d048eb764693ce08394c94'}
+2026-03-06 13:37:32,728 - TradingBot - INFO - Successfully placed order 12653227470 | Status: NEW
+2026-03-06 13:38:54,891 - TradingBot - INFO - Preparing to place SELL LIMIT order for 0.01 BTCUSDT...
+2026-03-06 13:38:54,892 - TradingBot - DEBUG - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 150000.0, 'timeInForce': 'GTC', 'timestamp': 1772784534891, 'signature': '7cb4b755d793c62a62d38204f243120522453c4ea62118b45164fcee5559fd3f'}
+2026-03-06 13:38:56,082 - TradingBot - INFO - Successfully placed order 12653247772 | Status: NEW
+2026-03-06 13:47:23,987 - TradingBot - INFO - Preparing to place BUY MARKET order for 0.03 BTCUSDT...
+2026-03-06 13:47:23,989 - TradingBot - DEBUG - Sending POST request to https://testnet.binancefuture.com/fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.03, 'timestamp': 1772785043988, 'signature': '5e12ebdb96c18d1443f7d629ab0b88651b8044b723d718742b38892b51ab649b'}
+2026-03-06 13:47:25,559 - TradingBot - INFO - UI Order Success: 12653351391 | Status: NEW
